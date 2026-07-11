@@ -44,6 +44,22 @@ export default function AuditOffer() {
             <p className="text-[#9a9a9a] text-base leading-relaxed">
               There's no obligation. No sales process attached to it. Just an honest assessment.
             </p>
+            
+            {/* Founder Signature Note */}
+            <div className="pt-6 border-t border-[#1e1e1e] flex flex-col gap-3 mt-8">
+              <p className="text-xs italic text-[#777] leading-relaxed">
+                "Our goal is simple: to show you exactly where operations are leaking time, without the standard software sales pitch. You get the blueprint; you choose what to build."
+              </p>
+              <div className="flex items-center gap-3 mt-2">
+                <div className="w-8 h-8 rounded-full bg-[#1e1e1e] border border-[#2a2a2a] flex items-center justify-center text-[10px] font-bold text-[#4f6ef7]">
+                  LS
+                </div>
+                <div>
+                  <span className="block text-xs font-semibold text-[#f0f0f0]">Lennart Schulze</span>
+                  <span className="block text-[10px] text-[#555]">Founder & Principal Operator</span>
+                </div>
+              </div>
+            </div>
           </motion.div>
 
           {/* Right: coverage card */}
